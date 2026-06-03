@@ -1,0 +1,31 @@
+{
+  "name": "api-app",
+  "version": "1.0.0",
+  "description": "Son las peticiones http para appmovil",
+  "keywords": [
+    "cors",
+    "express",
+    "nodemoon",
+    "path",
+    "mongoose"
+  ],
+  "license": "ISC",
+  "author": "dandev",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "cloudinary": "^2.10.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "lucide-react": "^1.17.0",
+    "mongoose": "^9.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
